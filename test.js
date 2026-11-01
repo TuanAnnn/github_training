@@ -1,5 +1,7 @@
 const numbers =;
 
+console.log("Mảng số ban đầu:", numbers);
+
 const sumOfEvens = numbers
   .filter(num => num % 2 === 0)
   .reduce((acc, curr) => acc + curr, 0);
